@@ -1,0 +1,29 @@
+name: candro_p
+description: "A new Flutter plugin project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.5.3
+  flutter: '>=3.3.0'
+
+flutter:
+  plugin:
+    implements: camera
+    platforms:
+      android:
+        package: io.flutter.plugins.camera
+        pluginClass: CameraPlugin
+        dartPluginClass: AndroidCamera
+
+dependencies:
+  camera_platform_interface: ^2.6.0
+  flutter:
+    sdk: flutter
+  flutter_plugin_android_lifecycle: ^2.0.2
+  stream_transform: ^2.0.0
+
+dev_dependencies:
+  async: ^2.5.0
+  flutter_test:
+    sdk: flutter
