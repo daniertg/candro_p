@@ -14,7 +14,7 @@ flutter:
       android:
         package: io.flutter.plugins.camera
         pluginClass: CameraPlugin
-        dartPluginClass: AndroidCamera
+        dartPluginClass: CameraPlugin
 
 dependencies:
   camera_platform_interface: ^2.6.0
